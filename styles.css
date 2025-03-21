@@ -30,6 +30,7 @@ nav ul li a {
 
 main {
     padding: 2rem;
+    margin-bottom: 4rem; /* Add margin to the bottom to avoid overlap */
 }
 
 section {
@@ -40,15 +41,15 @@ h2 {
     border-bottom: 2px solid #333;
     padding-bottom: 0.5rem;
 }
-
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
+    position: relative;
     width: 100%;
-    bottom: 0;
+    margin-top: 2rem;
+}
 }
 
 /* About Me Section */
